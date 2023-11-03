@@ -1,0 +1,9 @@
+{
+    "dockerFile": "Dockerfile",
+  
+    "customizations": {
+      "vscode": {
+        "extensions": ["streetsidesoftware.code-spell-checker"]
+      }
+    }
+  }
