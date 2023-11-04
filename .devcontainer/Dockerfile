@@ -1,7 +1,7 @@
 FROM gcc:9.5.0
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV PICO_SDK_PATH=/workspaces/ski-bt-controller/sdk
+ENV PICO_SDK_PATH=/workspaces/ski-bt-controller/pico-sdk
 
 RUN apt update && apt install -y \
     cmake \
